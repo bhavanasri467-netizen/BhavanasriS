@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="card success">
+  <div class="success-icon">✓</div>
+  <p class="eyebrow">EXPORT COMPLETE</p>
+  <h1>Your comic PDF is ready!</h1>
+  <p>The five-panel comic has been compiled with its illustrations, descriptions, captions, narration, and dialogue.</p>
+  <div class="actions">
+    <a class="button" href="{{ pdf_url }}" download>⬇ Download PDF</a>
+    <a class="button secondary" href="/">Go Create Another Comic</a>
+  </div>
+</section>
+{% endblock %}

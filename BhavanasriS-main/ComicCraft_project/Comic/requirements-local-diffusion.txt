@@ -1,0 +1,8 @@
+# Optional local Stable Diffusion support.
+# Install this only if you have a suitable GPU/CPU environment.
+-r requirements.txt
+torch>=2.2
+diffusers>=0.30
+transformers>=4.45
+accelerate>=0.34
+safetensors>=0.4
